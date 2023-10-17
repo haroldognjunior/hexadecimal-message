@@ -59,9 +59,7 @@ export default function DisplayLCDOptions({ mensajeHexadecimal }) {
           id="message"
         ></input>
         <div>
-          <small>
-            {`Escribe la palabra en hexadecimal, por ejemplo: ${mensajeHexadecimal.substring(2)}`}
-          </small>
+          <small>{`Escribe la palabra en hexadecimal, por ejemplo: 486f6c61204d756e646f21`}</small>
         </div>
       </Container>
     );
